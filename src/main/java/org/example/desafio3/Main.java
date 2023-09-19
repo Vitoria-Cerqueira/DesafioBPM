@@ -14,7 +14,7 @@ public class Main {
 
         Car car = new Car(averageConsumption,fuelConsumed);
         car.calculatorAverageConsumption();
-        System.out.println("Consumo médio: " + car.getAverageConsumption() + " km/l");
+        System.out.printf("Consumo médio: %.2f km/l%n", car.getAverageConsumption());
 
     }
 }
